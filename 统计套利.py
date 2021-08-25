@@ -262,8 +262,7 @@ def backtest(data_all):
 
 
 
-#jq.auth('15216691628', 'Zsq968813')
-jq.auth('18951734861', '734861')
+#jq.auth('########', '###########')
 j_all = jq.get_price(['J9999.XDCE'], start_date='2021-01-01', end_date='2021-05-31', frequency='minute', fields=None, skip_paused=False, fq='pre')
 jm_all = jq.get_price(['JM9999.XDCE'], start_date='2021-01-01', end_date='2021-05-31', frequency='minute', fields=None, skip_paused=False, fq='pre')
 jm_j_all = pd.concat([j_all['time'], j_all['close'], jm_all['close'], j_all['close'] - jm_all['close']], axis=1)
