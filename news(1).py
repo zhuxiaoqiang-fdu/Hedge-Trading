@@ -5,13 +5,6 @@ Created on Mon Jul 19 13:17:12 2021
 @author: Administrator
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 15 17:20:06 2021
-
-@author: Administrator
-"""
-
 startTime = '2021-05-01 00:00:00'
 endTime = '2021-07-16 23:59:59'
 import requests
